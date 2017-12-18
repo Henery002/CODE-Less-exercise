@@ -58,7 +58,7 @@ h2 {
     border : 1px solid @border-color; 
 }
 ```
-##### 经过编译生成的 CSS 文件如下：
+经过编译生成的 CSS 文件如下：
 ``` css
 .mythemes tableBorder { 
     border: 1px solid #b5bcc7; 
@@ -149,7 +149,7 @@ h2 {
     border-radius: 3px; 
 }
 ```
-##### 我们还可以给 Mixins 的参数定义一人默认值，如
+##### 我们还可以给 Mixins 的参数定义一个默认值，如
 ``` less
 .borderRadius(@radius:5px){ 
      -moz-border-radius: @radius; 
@@ -168,7 +168,7 @@ h2 {
     border-radius: 5px; 
 }
 ```
-##### 像 JavaScript 中 arguments一样，Mixins 也有这样一个变量：@arguments。@arguments 在 Mixins 中具是一个很特别的参数，当 Mixins 引用这个参数时，该参数表示所有的变量，很多情况下，这个参数可以省去你很多代码。
+##### 像 JavaScript 中 arguments一样，Mixins 也有这样一个变量：@arguments。@arguments 在 Mixins 中是一个很特别的参数，当 Mixins 引用这个参数时，该参数表示所有的变量，很多情况下，这个参数可以省去你很多代码。
 ``` less
 .boxShadow(@x:0,@y:0,@blur:1px,@color:#000){ 
     -moz-box-shadow: @arguments; 
@@ -200,7 +200,7 @@ h2 {
 ``` html
 <div id="home"> 
     <div id="top">top</div> 
-        <div id="center"> 
+    <div id="center"> 
         <div id="left">left</div> 
         <div id="right">right</div> 
     </div> 
