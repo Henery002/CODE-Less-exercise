@@ -14,6 +14,34 @@
 
 ### 语法
 * #### 变量
+```
+#home { 
+  color: blue; 
+  width: 600px; 
+  height: 500px; 
+  border: outset; 
+ } 
+ #home #top { 
+  border: outset; 
+  width: 90%; 
+ } 
+ #home #center { 
+  border: outset; 
+  height: 300px; 
+  width: 90%; 
+ } 
+ #home #center #left { 
+  border: outset; 
+  float: left; 
+  width: 40%; 
+ } 
+ #home #center #right { 
+  border: outset; 
+  float: left; 
+  width: 40%; 
+ }
+ ```
+
 
 * #### Mixins(混入)
 
