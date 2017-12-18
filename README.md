@@ -312,7 +312,7 @@ init: #f04615;
 }
 ```
 ##### 经过编译生成的 CSS 文件如下：
-```
+``` css
 #body { 
     background-color: #f04615; 
 }
