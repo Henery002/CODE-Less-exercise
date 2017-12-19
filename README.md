@@ -341,5 +341,3 @@ less 和 Sass 互相促进互相影响，相比之下 less 更接近 css 语法�
 * [Less 官方网站](http://lesscss.org/)
 * [Sass 官方网站](http://sass-lang.com/)
 * [Sass/Less Comparison](https://gist.github.com/674726)
-
-
