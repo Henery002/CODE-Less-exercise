@@ -121,7 +121,7 @@ mixins 在 less 中的使用：
 ```
 从上面的代码我们可以看出：mixins 其实是一种嵌套，它允许将一个类嵌入到另外一个类中使用，被嵌入的类也可以称作变量。
 
-mixins 还有一种形式叫做 [Parametric Mixins](http://lesscss.cn/features/#mixins-parametric-feature)（混入参数），less 也支持这一特性：
+- mixins 还有一种形式叫做 [Parametric Mixins](http://lesscss.cn/features/#mixins-parametric-feature)（混入参数），less 也支持这一特性：
 ``` less
 // 定义一个样式选择器
  .borderRadius(@radius){ 
@@ -150,7 +150,7 @@ mixins 还有一种形式叫做 [Parametric Mixins](http://lesscss.cn/features/#
     border-radius: 3px; 
 }
 ```
-还可以给 mixins 的参数定义一个默认值，如
+- 还可以给 mixins 的参数定义一个默认值，如
 ``` less
 .borderRadius(@radius:5px){ 
      -moz-border-radius: @radius; 
@@ -169,7 +169,7 @@ mixins 还有一种形式叫做 [Parametric Mixins](http://lesscss.cn/features/#
     border-radius: 5px; 
 }
 ```
-像 js 中 arguments 一样，mixins 也有 [@arguments](http://lesscss.cn/features/#mixins-parametric-feature-the-arguments-variable) 变量。当 mixins 引用这个参数时，该参数表示所有的变量。很多情况下该参数可以省去很多代码。
+- 像 js 中 arguments 一样，mixins 也有 [@arguments](http://lesscss.cn/features/#mixins-parametric-feature-the-arguments-variable) 变量。当 mixins 引用这个参数时，该参数表示所有的变量。很多情况下该参数可以省去很多代码。
 ``` less
 .boxShadow(@x:0,@y:0,@blur:1px,@color:#000){ 
     -moz-box-shadow: @arguments; 
@@ -188,7 +188,7 @@ mixins 还有一种形式叫做 [Parametric Mixins](http://lesscss.cn/features/#
     box-shadow: 2px 2px 3px #FF36; 
 }
 ```
-为了解决在团队开发中使用大量选择器时解决选择器之间的重名问题，less 在 mixins 的基础上做了扩展，采用命名空间（[Namespaces](http://lesscss.cn/features/#features-overview-feature-namespaces-and-accessors)）的方法避免重名：
+- 为了解决在团队开发中使用大量选择器时解决选择器之间的重名问题，less 在 mixins 的基础上做了扩展，采用命名空间（[Namespaces](http://lesscss.cn/features/#features-overview-feature-namespaces-and-accessors)）的方法避免重名：
 ``` less
 #mynamespace { 
     .home {...} 
