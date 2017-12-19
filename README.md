@@ -334,12 +334,12 @@ less 提供的运算及函数特性适用于实现页面组件特性，比如组
 
 6. #### Less VS Sass
 同类框架还有 Sass : [http://sass-lang.com/](http://sass-lang.com/)。与 less 相比，两者都属于 css 预处理器，功能上大同小异，都是使用类似程序式语言的方式书写 css, 都具有变量、mixin、嵌套、继承等特性，最终目的都是方便 css 的书写及维护。
-less 和 SASS 互相促进互相影响，相比之下 less 更接近 css 语法。两者之间的详细比较可以参阅 [https://gist.github.com/674726](https://gist.github.com/674726)。
+less 和 Sass 互相促进互相影响，相比之下 less 更接近 css 语法。两者之间的详细比较可以参阅 [https://gist.github.com/674726](https://gist.github.com/674726)。
 ### 结束语
 本文针对 less 的基本功能做了概述，更多高级功能如：字符串插值、服务器端使用配置、js 表达式、避免编译等可以参见 less 官网。
 ### 相关主题
-* [less 官方网站](http://lesscss.org/)
-* [SASS 官方网站](http://sass-lang.com/)
-* [Sass/less Comparison](https://gist.github.com/674726)
+* [Less 官方网站](http://lesscss.org/)
+* [Sass 官方网站](http://sass-lang.com/)
+* [Sass/Less Comparison](https://gist.github.com/674726)
 
 
